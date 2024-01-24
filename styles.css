@@ -193,4 +193,8 @@ label[for="algorithmSelector"] {
   .footer {
     gap: 10px; 
 }
+#algorithmSelector {
+  width: 21%;
+  
+}
 }
