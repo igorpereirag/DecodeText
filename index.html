@@ -33,7 +33,7 @@
                 <button onclick="descodificarTexto()">Decodificar</button>
             </div>
             <div class="algorithm-container">
-                <select id="algorithmSelector">
+                <select class="borderless" id="algorithmSelector">
                     <option value="base64">Base64</option>
                     <option value="sha256">SHA-256</option>
                     <option value="md5">MD5</option>   
@@ -44,7 +44,7 @@
 
         <div class="container-direito">
             <div id="textoStatus"></div>
-            <div class="resultText borderless" rows="5">
+            <div class="resultText" class="borderless"  rows="5">
                 <div id="resultMessage"></div>
             </div>
             <button class="button_result" onclick="copy()">Copiar para a Área de Transferência</button>
