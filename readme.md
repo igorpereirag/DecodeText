@@ -2,11 +2,12 @@
 
 Este projeto consiste em uma aplicação simples para codificar e decodificar textos usando JavaScript. Ele oferece uma interface amigável para inserir texto, codificá-lo ou decodificá-lo e copiar o resultado para a área de transferência.
 
-## Funcionalidades
-
-- **Codificação:** Transforma o texto inserido em sua forma codificada usando base64.
-- **Decodificação:** Converte o texto codificado de volta à sua forma original.
-- **Cópia para Área de Transferência:** Permite copiar facilmente o resultado para a área de transferência.
+# Funcionalidades
+1. **Entrada de Texto:** Insira o texto na caixa de texto fornecida.
+2. **Codificar:** Utilize o botão "Codificar" para criptografar o texto usando o algoritmo selecionado.
+3. **Decodificar:** Utilize o botão "Decodificar" para descriptografar o texto usando o algoritmo selecionado.
+4. **Seleção de Algoritmo:** Escolha o algoritmo desejado no menu abaixo botões "ainda será implementado".
+5. **Copiar para a Área de Transferência:** Copie o resultado para a área de transferência clicando no botão "Copiar para a Área de Transferência".
 
 ## Como Usar
 
