@@ -52,7 +52,7 @@ function  codificarTexto() {
     if (algorithm === 'base64') {
         return btoa(text);
     } else if (algorithm === 'sha256') {
-        /
+       
     } else if (algorithm === 'md5') {
       
     } 
