@@ -157,3 +157,20 @@ label[for="algorithmSelector"] {
   color: #49f550;
   outline: none;
 }
+@media (max-width: 768px) {
+  .container-principal{
+    flex-direction: column;
+  }
+.container-esquerdo,
+.container-direito {
+  width: 100%;
+  max-width: 700px;
+  border: none;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-right: 20px;
+  min-height: 300px;
+  box-shadow: none;
+}
+}
+
