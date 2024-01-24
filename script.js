@@ -101,3 +101,10 @@ function base32Encode(text) {
 
   return encoded;
 }
+function urlEncode(text) {
+    return encodeURIComponent(text);
+}
+//codigo pra implementações futuras de novos metodos de criptografia 
+function urlEncode(text) {
+  return encodeURIComponent(text);
+}
