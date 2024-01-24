@@ -60,7 +60,7 @@ function  codificarTexto() {
     
 
     }
-
+//codigo pra implementações futuras de novos metodos de criptografia 
 function decode(encodedText, algorithm) {
     if (algorithm === 'base64') {
         return atob(encodedText);
@@ -71,4 +71,33 @@ function decode(encodedText, algorithm) {
     } 
 
     return '';
+}
+//codigo pra implementações futuras de novos metodos de criptografia 
+function rot13(text) {
+  return text.replace(/[a-zA-Z]/g, function (char) {
+      var offset = char <= 'Z' ? 65 : 97;
+      return String.fromCharCode((char.charCodeAt(0) - offset + 13) % 26 + offset);
+  });
+}
+//codigo pra implementações futuras de novos metodos de criptografia 
+function hexEncode(text) {
+  return text.split('').map(function (char) {
+      return char.charCodeAt(0).toString(16);
+  }).join('');
+}
+//codigo pra implementações futuras de novos metodos de criptografia 
+function base32Encode(text) {
+  let binaryString = '';
+  for (let i = 0; i < text.length; i++) {
+      const binaryChar = text[i].charCodeAt(0).toString(2).padStart(8, '0');
+      binaryString += binaryChar;
+  }
+
+  let encoded = '';
+  for (let i = 0; i < binaryString.length; i += 5) {
+      const chunk = binaryString.substr(i, 5).padEnd(5, '0');
+      encoded += base32Chars[parseInt(chunk, 2)];
+  }
+
+  return encoded;
 }
