@@ -124,6 +124,12 @@ button:hover {
   bottom: 0;
   max-height: 100px; 
   overflow: hidden;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
 }
 
 .footer a {
@@ -157,6 +163,8 @@ label[for="algorithmSelector"] {
   color: #49f550;
   outline: none;
 }
+
+
 @media (max-width: 768px) {
   .container-principal{
     flex-direction: column;
@@ -173,4 +181,3 @@ label[for="algorithmSelector"] {
   box-shadow: none;
 }
 }
-
