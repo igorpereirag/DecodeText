@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+<script src="https://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/sha256.js"></script>
+<script src="https://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js"></script>
+
 </head>
 
 <body>
@@ -24,11 +27,20 @@
                 <label for="inputText">Insira um texto para ser codificado ou descodificado 📤</label>
                 <textarea id="inputText" class="borderless" placeholder="Insira o texto" rows="5"></textarea>
             </div>
+            
             <div class="buttons-container">
                 <button onclick="codificarTexto()">Codificar</button>
                 <button onclick="descodificarTexto()">Decodificar</button>
             </div>
+            <div class="algorithm-container">
+                <select id="algorithmSelector">
+                    <option value="base64">Base64</option>
+                    <option value="sha256">SHA-256</option>
+                    <option value="md5">MD5</option>   
+                </select>
+            </div>
         </div>
+       
 
         <div class="container-direito">
             <div id="textoStatus"></div>
