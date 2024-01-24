@@ -110,6 +110,12 @@ button:hover {
 .title-principal > h1 {
   color: #ebf5ec;
   font-weight: bold;
+  
+}
+
+.title-principal{
+  margin-top: 69px;
+  height: 33px;
 }
 
 .footer {
