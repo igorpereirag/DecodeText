@@ -45,3 +45,30 @@ function  codificarTexto() {
     }
   }
   
+
+
+  //codigo pra implementações futuras de novos metodos de criptografia 
+  function encode(text, algorithm) {
+    if (algorithm === 'base64') {
+        return btoa(text);
+    } else if (algorithm === 'sha256') {
+        /
+    } else if (algorithm === 'md5') {
+      
+    } 
+    return '';
+    
+
+    }
+
+function decode(encodedText, algorithm) {
+    if (algorithm === 'base64') {
+        return atob(encodedText);
+    } else if (algorithm === 'sha256') {
+       
+    } else if (algorithm === 'md5') {
+      
+    } 
+
+    return '';
+}
