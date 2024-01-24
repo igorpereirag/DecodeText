@@ -3,7 +3,7 @@ function  codificarTexto() {
       var texto = document.getElementById('inputText').value;
       var textoCodificado = btoa(texto);
       document.getElementById('resultMessage').innerText = textoCodificado;
-      document.getElementById('textoStatus').innerText = " Texto Codificado:";
+      document.getElementById('textoStatus').innerText = " Texto criptografado:";
       document.getElementById('inputText').value = "";
     } catch (error) {
       document.getElementById('resultMessage').innerText = "Erro ao codificar o texto.";
@@ -17,7 +17,7 @@ function  codificarTexto() {
       var texto = document.getElementById('inputText').value;
       var textoDecodificado = atob(texto);
       document.getElementById('resultMessage').innerText = textoDecodificado;
-      document.getElementById('textoStatus').innerText = " Texto Descodificado:";
+      document.getElementById('textoStatus').innerText = " Texto descriptografado:";
       document.getElementById('inputText').value = "";
       
     } catch (error) {
