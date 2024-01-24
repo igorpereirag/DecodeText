@@ -179,4 +179,12 @@ label[for="algorithmSelector"] {
     min-height: 300px;
     box-shadow: none;
   }
+
+  button {
+    padding: 8px 16px; 
+  }
+
+  .footer {
+    gap: 10px; 
+}
 }
