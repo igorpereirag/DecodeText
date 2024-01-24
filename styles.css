@@ -122,7 +122,7 @@ button:hover {
   box-sizing: border-box;
   position: fixed;
   bottom: 0;
-  max-height: 100px; /* Ajuste a altura máxima conforme necessário */
+  max-height: 100px; 
   overflow: hidden;
 }
 
