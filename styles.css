@@ -29,6 +29,7 @@ body {
   box-sizing: border-box;
   margin-right: 20px;
   min-height: 300px;
+  box-shadow: 9px -11px 10px rgb(0 255 104 / 12%);
 }
 
 .container-direito > button {
