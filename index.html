@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de texto </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="title-principal">
+        <h1>Decodificador de texto 🔑 </h1>
+    </div>
+
+    <div class="container-principal">
+
+        <div class="container-esquerdo">
+            <div class="campo-texto">
+                <label for="inputText">Insira um texto para ser codificado ou descodificado 📤</label>
+                <textarea id="inputText" class="borderless" placeholder="Insira o texto" rows="5"></textarea>
+            </div>
+            <div class="buttons-container">
+                <button onclick="codificarTexto()">Codificar</button>
+                <button onclick="descodificarTexto()">Decodificar</button>
+            </div>
+        </div>
+
+        <div class="container-direito">
+            <div id="textoStatus"></div>
+            <div class="resultText borderless" rows="5">
+                <div id="resultMessage"></div>
+            </div>
+            <button class="button_result" onclick="copy()">Copiar para a Área de Transferência</button>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>Desenvolvido por Igor Pereira ⚒</p>
+        <p><a href="https://github.com/Igorpereirag" target="_blank">GitHub</a></p>
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+
+</html>
