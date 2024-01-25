@@ -6,7 +6,7 @@ Este projeto consiste em uma aplicação simples para codificar e decodificar te
 1. **Entrada de Texto:** Insira o texto na caixa de texto fornecida.
 2. **Codificar:** Utilize o botão "Codificar" para criptografar o texto usando o algoritmo selecionado.
 3. **Decodificar:** Utilize o botão "Decodificar" para descriptografar o texto usando o algoritmo selecionado.
-4. **Seleção de Algoritmo:** Escolha o algoritmo desejado no menu abaixo botões "ainda será implementado".
+4. **Seleção de Algoritmo:** Escolha o algoritmo desejado no menu dropdown abaixo dos botões "ainda será implementado".
 5. **Copiar para a Área de Transferência:** Copie o resultado para a área de transferência clicando no botão "Copiar para a Área de Transferência".
 
 ## Como Usar
