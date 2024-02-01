@@ -2,6 +2,8 @@
 
 Este projeto consiste em uma aplicação simples para codificar e decodificar textos usando JavaScript. Ele oferece uma interface amigável para inserir texto, codificá-lo ou decodificá-lo e copiar o resultado para a área de transferência.
 
+![Alt text](img/image.png)
+
 # Funcionalidades
 1. **Entrada de Texto:** Insira o texto na caixa de texto fornecida.
 2. **Codificar:** Utilize o botão "Codificar" para criptografar o texto usando o algoritmo selecionado.
